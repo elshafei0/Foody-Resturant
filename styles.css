@@ -1,0 +1,90 @@
+body {
+  --dis-flex: flex;
+  --coler-red: red;
+  --coler-aquq: aqua;
+  --main_color: #f2f3f5;
+  --let_space3: 3px;
+  --let_space5: 5px;
+  --let_space2: 2px;
+  --color-black: black;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-5 {
+  gap: 5px;
+}
+.gap-13 {
+  gap: 13px;
+}
+.gap-20 {
+  gap: 40px;
+}
+.fl-col {
+  flex-direction: column;
+}
+.wid-hight-60 {
+  width: 60px;
+  height: 60px;
+}
+.wid-hight-150 {
+  width: 150px;
+  height: 150px;
+}
+.rad-15 {
+  border-radius: 15px;
+}
+.ov-hid {
+  overflow: hidden;
+}
+.aqua {
+  background-color: var(--coler-aqua);
+}
+.red {
+  background-color: var(--coler-red);
+}
+.black {
+  background-color: var(--color-black);
+}
+.mar-top-15 {
+  margin-top: 15px;
+}
+.relative {
+  position: relative;
+}
+.absoulote {
+  position: absolute;
+}
+.js-between {
+  justify-content: space-between;
+}
+.js-arround {
+  justify-content: space-around;
+}
+
+.mar-top20 {
+  margin-top: 20px;
+}
+.width-fit {
+  width: fit-content;
+}
+.hight-fit {
+  height: fit-content;
+}
+.photo-what {
+  width: 950px;
+  height: 445px;
+  background-color: var(--main_color);
+}
+
+.align {
+  align-items: center;
+}
+
+.transition {
+  transition: all 200ms ease;
+}
