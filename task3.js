@@ -103,28 +103,13 @@ buttomBtn_cati1.addEventListener("click", () => {
       : (currentIndex_cati1 + 1) % slides_cati1.children.length;
   slides_cati1.style.transform = `translateY(-${currentIndex_cati1 * 16.7}%)`;
 });
-// for Header
 
-const img = document.getElementById("header_img");
-const foody_class = document.querySelector(".foody");
-const foody_id = document.getElementById("foody");
+let svg=document.getElementsByTagName("svg");
+svg.addEventListener("click",function()
+{
+  ;
+})
 
-img.addEventListener("click", function () {
-  foody_class.style.width = "172px";
-  foody_id.style.top = "0%";
-});
-
-// for header-image
-
-img.addEventListener("mouseenter", function () {
-  document.querySelector(".btn").style.overflow = "disable";
-  document.querySelector(".btn").style.width = "68px";
-  document.querySelector(".btn").style.right = "16%";
-});
-img.addEventListener("mouseleave", function () {
-  document.querySelector(".btn").style.right = "-110%";
-  document.querySelector(".img-btn").style.overflow = "hidden";
-});
 
 // for contact
 const sign_up = document.getElementById("sign-Up");

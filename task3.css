@@ -3,24 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-.foody {
-  overflow: hidden;
-  width: 0px;
 
-  height: 100px;
-  margin-top: 75px;
-  transition: width 300ms ease-out;
-  position: relative;
-}
 
-#foody {
-  font-size: larger;
-  letter-spacing: var(--let_space3);
-  color: black;
-  position: absolute;
-  top: 70%;
-  transition: all 300ms 300ms ease-out;
-}
+
 /* #foody:active {
   top: 0%;
 } */
@@ -36,54 +21,27 @@ body {
   --rad-15: 15px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: #f2f3f5;
+  position: relative;
 }
 
-header {
-  width: 100%;
-  height: 100px;
-  background-color:rgba(120, 137, 173, 0.849);;
-  border-radius: 0px 0px 10px 10px;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
-  position: fixed;
+.call{
+  width:70px;
+  height: 80px;
+  background-color:white;
+  position: absolute;
   top: 0;
-  right: 0;
-  left: 0;
-  z-index: 99;
-  /* border: 2px black solid; */
-  display: var(--dis-flex);
-  text-align: center;
-  margin-bottom: 30px;
-  overflow: hidden;
-}
-.header {
+  right: 35%;
+  border-radius: 0 0 50% 50%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 20px 0px 20px;
-  text-align: center;
-  width: 100%;
+  justify-content: center;
+
 }
-a:hover {
-  color: red;
-  opacity: 0.8;
+svg{
+  width: 60px;
+ height:100%;
+ cursor: pointer;
 }
-.left_header_div {
-  /* background-color: red; */
-  display: var(--dis-flex);
-  align-items: center;
-  gap: 5px;
-  width: fit-content;
-  height: fit-content;
-}
-.left_header_div img {
-  width: 70px;
-  height: 70px;
-  cursor: pointer;
-  transition: all 200ms ease-out;
-}
-.left_header_div img:hover {
-  scale: 1.2;
-}
+
 
 /* Menue */
 
@@ -103,23 +61,7 @@ a {
   transition: all 250ms ease-out;
 }
 
-.div_for_responsive {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 100px;
-  background-color: var(--coler-red);
-  z-index: 99;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-top: 30px;
-  gap: 20px;
-  display: none;
-}
+
 
 /* Body */
 .big_container {
@@ -144,7 +86,7 @@ background-size: cover;
 }
 .frist{
   padding: 10px ;
-   margin-top:100px;
+   
    border-radius:0 0 10px 10px ;
    background-image: url(./media/img/Background/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg);
 }
