@@ -41,7 +41,7 @@ body {
 header {
   width: 100%;
   height: 100px;
-  background-color: var(--coler-aquq);
+  background-color:rgba(120, 137, 173, 0.849);;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -133,6 +133,8 @@ a {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
+  /* background-image:url(./media/img/Background/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg); */
+background-size: cover;
 }
 .categories {
   width: 900px;
@@ -140,20 +142,26 @@ a {
   transform: translateY(0px);
   transition: all 200ms ease-out;
 }
-
+.frist{
+  padding: 10px ;
+   margin-top:100px;
+   border-radius:0 0 10px 10px ;
+   background-image: url(./media/img/Background/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg);
+}
 #about_us {
-  margin-top: 150px;
-  margin-left: 20px;
-  margin-bottom: 30px;
+
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
 }
 #about_us p {
-  color: rgb(83, 83, 254);
+  color: rgb(223, 223, 228);letter-spacing: var(--let_space2);
 }
 h3 {
   letter-spacing: var(--let_space3);
 }
-.about_us p {
-  letter-spacing: var(--let_space2);
+#about_us span {
+  color: rgb(70, 235, 221);
 }
 .top {
   width: 100%;
@@ -163,14 +171,14 @@ h3 {
   /* align-items: center; */
 }
 #menue {
-  background-color: white;
+  background-color: transparent;
   width: calc(70% - 5px);
   height: 100%;
   border-radius: 10px;
 }
 
 .comments {
-  background-color: var(--main_color);
+  /* background-color: var(--main_color); */
   font-weight: normal;
   font-family: "Courier New", Courier, monospace;
 
@@ -244,6 +252,7 @@ h2 {
   border-radius: 15px;
   padding-top: 5px;
   overflow: hidden;
+  
 }
 .container-2 {
   transform: translateY(0px);
@@ -254,9 +263,12 @@ h2 {
 /* Menue */
 
 /* Comments */
-
+.comments::-webkit-slider-runnable-track{
+  width: 5px;
+}
 .comments {
   text-align: center;
+  
 }
 .comments2 {
   width: 100%;
@@ -328,7 +340,7 @@ button:active {
 /* Footer */
 footer {
   margin-top: 20px;
-  width: 1473px;
+  width: 100%;
   height: 500px;
   background-color: black;
   display: flex;
@@ -424,5 +436,8 @@ footer img:hover {
 label {
   color: white;
 }
+.categories p{
+  letter-spacing: 3px;
 
+}
 /* Footer */
